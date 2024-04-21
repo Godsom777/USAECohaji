@@ -1,0 +1,38 @@
+/* description.css */
+
+.my-node-enter {
+    opacity: 0;
+}
+
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.my-node-exit {
+    opacity: 1;
+}
+
+.my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+
+
+.gradient {
+    background: linear-gradient(to right, rgb(0, 82, 158), rgb(108, 180, 248));
+    color: white;
+}
+
+.active {
+    background-color: #ff9966;
+    color: white;
+}
+
+.card-text {
+    color: rgb(43, 43, 43);
+    font-size: 1em;
+    text-align: center;
+}
+

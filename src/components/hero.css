@@ -1,0 +1,27 @@
+/* HeroPage.css */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 5em;
+    z-index: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        font-size: 3em;
+    }
+}
+
